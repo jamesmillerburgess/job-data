@@ -1,0 +1,15 @@
+{
+  "name": "query-tool",
+  "private": true,
+  "scripts": {
+    "start": "MONGO_URL='mongodb://meteor:Cdjuices1@cluster0-shard-00-00-rdywu.mongodb.net:27017,cluster0-shard-00-01-rdywu.mongodb.net:27017,cluster0-shard-00-02-rdywu.mongodb.net:27017/jobs?authSource=admin&ssl=true&replicaSet=Cluster0-shard-0' MONGO_OPLOG_URL='mongodb://oplog:Cdjuices1@cluster0-shard-00-00-rdywu.mongodb.net:27017,cluster0-shard-00-01-rdywu.mongodb.net:27017,cluster0-shard-00-02-rdywu.mongodb.net:27017/local?authSource=admin&ssl=true&replicaSet=Cluster0-shard-0' meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "meteor-node-stubs": "^0.3.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  }
+}

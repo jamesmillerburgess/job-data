@@ -1,0 +1,99 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  .title {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .form-section {
+    margin-bottom: 15px;
+  }
+  .form-section h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .select-group {
+    display: flex;
+    flex-direction: column;
+  }
+  input,
+  select {
+    font-family: 'Open Sans', sans-serif;
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 4px;
+    background-color: rgba(#fc7f2c, 0.3);
+  }
+  button {
+    width: 250px;
+    height: 50px;
+    background-color: #fc7f2c;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+  }
+  .submission {
+    display: flex;
+    width: 100%;
+  }
+  .winner {
+    font-weight: bold;
+  }
+  .rank,
+  .name,
+  .num-jobs {
+    margin-right: 15px;
+  }
+  .rank {
+    flex-basis: 5%;
+  }
+  .name {
+    flex-basis: 75%;
+  }
+  .num-jobs {
+    flex-basis: 20%;
+    text-align: right;
+  }
+  .results {
+    font-size: 20px;
+    width: 400px;
+    margin-bottom: 15px;
+  }
+  .hover-text {
+    visibility: hidden;
+    position: absolute;
+    border: 1px solid #fc7f2c;
+    background-color: #fc7f2c;
+    transform: translate(25px, 27px);
+    display: flex;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+      0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+    width: 450px;
+    padding: 12px 12px 0 12px;
+  }
+  .submission:hover {
+    color: #fc7f2c;
+  }
+  .submission:hover .hover-text {
+    visibility: visible;
+    color: #333333;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+  }
+  .list-title {
+    font-weight: bold;
+  }
+  .list-item {
+    font-weight: normal;
+  }
+  .scenarios,
+  .countries {
+    flex-basis: 50%;
+  }
+}

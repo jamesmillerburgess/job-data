@@ -1,0 +1,1 @@
+mongo "mongodb://cluster0-shard-00-00-rdywu.mongodb.net:27017,cluster0-shard-00-01-rdywu.mongodb.net:27017,cluster0-shard-00-02-rdywu.mongodb.net:27017/jobs?replicaSet=Cluster0-shard-0" --authenticationDatabase admin --ssl --shell --username admin --password Cdjuices1 findOptimalSolution.js
